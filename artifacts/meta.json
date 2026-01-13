@@ -1,0 +1,44 @@
+{
+  "feature_columns": [
+    "career_research_done",
+    "mentor_interview_done",
+    "career_path_chosen",
+    "postsecondary_plan_set",
+    "resume_prepared",
+    "internship_or_job_shadow",
+    "applications_submitted",
+    "financial_aid_plan",
+    "study_habits_score",
+    "future_confidence_score",
+    "barriers_score"
+  ],
+  "target_columns": "ccr_ready",
+  "scaler_mean": [
+    0.6,
+    0.26666666666666666,
+    0.6,
+    0.6666666666666666,
+    0.4666666666666667,
+    0.2,
+    0.26666666666666666,
+    0.3333333333333333,
+    3.2666666666666666,
+    3.466666666666667,
+    1.2666666666666666
+  ],
+  "scaler_scale": [
+    0.48989794855663565,
+    0.44221663871405337,
+    0.48989794855663565,
+    0.47140452079103173,
+    0.4988876515698588,
+    0.4000000000000001,
+    0.44221663871405337,
+    0.47140452079103173,
+    0.9977753031397179,
+    1.2036980056845192,
+    0.8537498983243799
+  ],
+  "model_version": "0.1.0",
+  "threshold": 0.5
+}
